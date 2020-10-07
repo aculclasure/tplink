@@ -33,7 +33,7 @@ var versionCmd = &cobra.Command{
 	Short: "displays the version and exits",
 	Long:  `displays the version and exits`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Tp-Link Wifi Router Client v0.0.1")
+		fmt.Println("Tp-Link Wifi Router Client v0.1.0")
 	},
 }
 
